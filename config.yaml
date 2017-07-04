@@ -1,0 +1,20 @@
+cluster:
+  name: cluster
+  nodes:
+    - name: node1
+      host: kg1
+    - name: node2
+      host: kg2
+    - name: node3
+      host: kg3
+
+services:
+  - pkgPath: D:\dev\graph_database\orientdb-3.0.0m1.tar.gz
+    installPath: /home/graph/install/
+    configFiles:
+      - asdfa
+      - asdfasdf
+    nodeNames:
+      - node1
+      - node2
+      - node3

@@ -30,4 +30,13 @@ dependencies {
     compile 'ch.qos.logback:logback-core:1.0.13'
     compile 'ch.qos.logback:logback-classic:1.0.13'
     compile 'commons-codec:commons-codec:1.10'
+    compile 'com.jcraft:jsch:0.1.54'
+    compile 'com.ibeetl:beetl:2.7.16'
+
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.7.1-1'
+    compile 'com.fasterxml.jackson.module:jackson-module-kotlin:2.7.1-2'
+    compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.7.1'
+
+    compile 'org.apache.commons:commons-compress:1.14'
+    compile 'commons-io:commons-io:2.5'
 }
